@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
     	String crypt_path = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separatorChar + "love_e.jpg";
     	Cryptor.crypt(normal_path, crypt_path);
     	Log.d("lichao", "加密完成");
+    	Log.d("lichao", "normal_path"+normal_path);
     }
     
     //解密
